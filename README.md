@@ -14,12 +14,15 @@ Input a 5 letter word and the code will output if any of the letters were locate
 ## Example guess
 
 If the word to guess is "WORDS" and the input given by the user is "WIRED"
+
 The "W" and "R" which are in the correct spot will be shown as: '[W] [R]'
+
 The "D" which is in the word but in the wrong spot will be shown as: 'd'
 
 Therefore, the output will give:
 
-```[W] [ ] [R] [ ]  d  <- WIRED
+```
+[W] [ ] [R] [ ]  d  `<-` WIRED
 
 Q W   R T Y U   O P
  A S D F G H J K L
