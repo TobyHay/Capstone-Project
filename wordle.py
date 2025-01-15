@@ -164,7 +164,6 @@ def playgame() -> None:
     results = [['_']*5, ['_']*5, ['_']*5, ['_']*5, ['_']*5, ['_']*5,]
 
     intro_message()
-    # input("Press enter to start:\n")
 
     attempt = 0
     current_guess = []
@@ -206,7 +205,6 @@ answer_list, word_list = import_words()
 wordle_num = random.randint(0, len(answer_list))
 
 wordle = list(answer_list[wordle_num])
-wordle = list("above")
 
 current_info = {}
 
