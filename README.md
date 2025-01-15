@@ -14,8 +14,8 @@ Input a 5 letter word and the code will output if any of the letters were locate
 ## Example guess
 
 If the wordle to guess is "WORDS" and the input given by the user is "WIRED"  
-The "W" and "R" which are in the correct spot will be shown as: 'W R'  
-The "D" which is in the word but in the wrong spot will be shown as: 'd'  
+The "W" and "R" which are in the correct spot will be shown as uppercase: "W, R"
+The "D" which is in the word but in the wrong spot will be shown as lowercarse: "d"  
 
 Therefore, the output will give:
 
